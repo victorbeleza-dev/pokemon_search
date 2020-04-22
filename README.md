@@ -1,8 +1,8 @@
 # pokemon_search 
 # O que é necessário pra rodar ?
--Npm
--Nodejs;
--Angularjs;
+- Npm
+- Nodejs;
+- Angularjs;
 
 # Passos para ultilizar o programa:
 - Entre na pasta back-end, pelo cmd e execute o comando "npm install"; (esse comando irá instalar as dependencias necessarias)
