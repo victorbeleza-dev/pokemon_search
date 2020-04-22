@@ -1,6 +1,6 @@
 # pokemon_search 
 # O que é necessário pra rodar ?
-- Npm
+- Npm;
 - Nodejs;
 - Angularjs;
 
