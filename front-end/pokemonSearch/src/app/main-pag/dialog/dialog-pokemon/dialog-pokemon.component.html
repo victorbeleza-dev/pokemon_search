@@ -1,0 +1,14 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title>{{data.nomePokemon}}</mat-card-title>
+    <mat-card-subtitle>{{data.nomeCidade}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src={{data.urlImage}} alt="Foto do Pokemon">
+  <mat-card-content>
+    <p>
+      Este é o pokémon mais propenso a aparecer nesta cidade, a temperatura atual na cidade {{data.nomeCidade}} é de {{data.temperatura}}°C, atualmente {{chovendo}}.
+    </p>
+  </mat-card-content>
+</mat-card>
+<button class="close-dialog"  mat-raised-button (click)="onNoClick()" color="primary">Tentar Novamente</button>

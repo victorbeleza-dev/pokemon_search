@@ -1,0 +1,11 @@
+<div class="container">
+  <mat-card class="main-card">
+    <p>Descubra qual pokémon é mais propicio a aparecer na sua região!</p>
+    <p>Basta digitar o nome da sua cidade!</p>
+    <mat-form-field appearance="outline">
+      <mat-label>Digite o nome da sua cidade</mat-label>
+      <input matInput placeholder="Ex. London" (input)="onSearchChange($event.target.value)" (keyup.enter)="onClickConfirm()">
+    </mat-form-field>
+    <button class="button-confirm" mat-raised-button color="primary" (click)="onClickConfirm()">Confirmar</button>
+  </mat-card>
+</div>
